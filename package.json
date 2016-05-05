@@ -1,6 +1,6 @@
 {
   "name": "fantasy-do",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Do notation for javascript.",
   "main": "index.js",
   "scripts": {
