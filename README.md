@@ -1,4 +1,7 @@
 # fantasy-do
+[![NPM version](http://img.shields.io/npm/v/fantasy-do.svg?style=flat-square)](https://www.npmjs.com/package/fantasy-do)
+[![Build status](http://img.shields.io/travis/jwoudenberg/fantasy-do/master.svg?style=flat-square)](https://travis-ci.org/jwoudenberg/fantasy-do)
+[![Dependencies](https://img.shields.io/david/jwoudenberg/fantasy-do.svg?style=flat-square)](https://david-dm.org/jwoudenberg/fantasy-do)
 
 What is it? Take your pick:
 - do notation for [fantasy-land](https://github.com/fantasyland/fantasy-land) javascript.
