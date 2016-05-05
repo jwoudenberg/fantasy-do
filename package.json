@@ -1,0 +1,34 @@
+{
+  "name": "fantasy-do",
+  "version": "1.0.0",
+  "description": "Do notation for javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm-run-all test:*",
+    "test:lint": "standard",
+    "test:unit": "nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwoudenberg/fantasy-do.git"
+  },
+  "keywords": [
+    "fantasy-land",
+    "monad"
+  ],
+  "author": "Jasper Woudenberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jwoudenberg/fantasy-do/issues"
+  },
+  "homepage": "https://github.com/jwoudenberg/fantasy-do#readme",
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "nyc": "^6.4.2",
+    "sanctuary": "^0.10.0",
+    "standard": "^7.0.1"
+  },
+  "dependencies": {
+    "npm-run-all": "^1.8.0"
+  }
+}
