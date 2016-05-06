@@ -14,6 +14,15 @@ test('happy flow', t => {
   )
 })
 
+test('yielding a non-monad throws', t => {
+  t.throws(
+    () => mdo(function * () {
+      yield 42
+    }),
+    '[fantasy-do] yielded value is not a Monad: 42.'
+  )
+})
+
 function div (a, b) {
   return (b === 0) ? Nothing() : Just(a / b)
 }
