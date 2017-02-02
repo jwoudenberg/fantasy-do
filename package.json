@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/jwoudenberg/fantasy-do#readme",
   "devDependencies": {
-    "ava": "^0.17.0",
+    "ava": "^0.18.0",
     "nyc": "^10.0.0",
     "npm-run-all": "^4.0.1",
     "sanctuary": "^0.11.1",
